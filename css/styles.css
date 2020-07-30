@@ -1,0 +1,39 @@
+.statsCard {
+  box-shadow: 0px 4px 4px grey;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 12%;
+  padding: 10px;
+  display: inline-block;
+  background-color: #ffe3e0;
+}
+
+.userCard {
+  box-shadow: 0px 4px 4px grey;
+  border-radius: 10px;
+  margin: 10px;
+  width: 28%;
+  padding: 10px;
+  display: inline-block;
+  background-color: #f38375;
+  transition-duration: 0.3s;
+  transition-property: transform, background-color;
+  color: white;
+}
+
+.userCard:hover {
+  background-color: #ef6351;
+  transform: scale(1.05);
+}
+
+.userInfo {
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
