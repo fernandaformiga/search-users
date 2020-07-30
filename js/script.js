@@ -81,12 +81,10 @@ function showUsersStatistics() {
   agesAverage = agesTotal / filteredUsers.length;
   averageRounded = Math.round(agesAverage * 10) / 10;
 
-  UsersStatistics.innerHTML = `<div class="stats"><h2>STATS</h2><div class="statsCard">Women: ${numberOfWomen}</div>
+  UsersStatistics.innerHTML = `<div class= "stats"><h2>STATS</h2>
+  <div class="statsCard">Women: ${numberOfWomen}</div>
   <div class="statsCard">Men: ${numberOfMen}</div>
   <div class="statsCard">Sum of Ages: ${agesTotal}</div>
   <div class="statsCard">Average Age: ${averageRounded}</div>
   </div>`;
-
-  console.log(averageRounded);
-  // age average
 }

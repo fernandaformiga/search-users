@@ -1,28 +1,53 @@
+.stats > div {
+  display: inline-block;
+  display: -moz-inline-box;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 15%;
+  text-align: center;
+}
+
 .statsCard {
-  box-shadow: 0px 4px 4px grey;
+  box-shadow: 4px 4px 4px grey;
   border-radius: 10px;
   margin: 10px auto;
   width: 12%;
   padding: 10px;
   display: inline-block;
-  background-color: #ffe3e0;
+  background-color: #e8eddf;
+  color: #242423;
+  justify-content: space-around;
+  flex-grow: 1;
 }
 
 .userCard {
-  box-shadow: 0px 4px 4px grey;
+  box-shadow: 4px 4px 4px grey;
   border-radius: 10px;
   margin: 10px;
   width: 28%;
   padding: 10px;
   display: inline-block;
-  background-color: #f38375;
+  background-color: #e8eddf;
   transition-duration: 0.3s;
   transition-property: transform, background-color;
-  color: white;
+}
+
+p {
+  color: #242423;
+}
+
+h1 {
+  color: #333533;
+}
+
+h2 {
+  color: #333533;
 }
 
 .userCard:hover {
-  background-color: #ef6351;
+  background-color: #f5cb5c;
   transform: scale(1.05);
 }
 
@@ -30,10 +55,11 @@
   text-align: left;
   display: inline-block;
   padding: 20px;
+  color: #242423;
 }
 
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: #cfdbd5;
 }
